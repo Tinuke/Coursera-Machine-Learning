@@ -1,0 +1,1 @@
+Theta1_grad = Theta1_grad(:,2:end) + (lambda * 1/m * Theta1(:,2:end))Theta2_grad = Theta2_grad(:,2:end) + (lambda * 1/m * Theta2(:,2:end)) 

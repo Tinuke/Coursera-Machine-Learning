@@ -1,0 +1,1 @@
+h = X * thetaJ = 0.5 * 1/m * (sum((h - y)' * (h - y))) grad = 1/m * (X' * (h - y))theta(1) = 0unreg_cost = (lambda/(2*m))*(theta'* theta)J = J + unreg_costgrad = grad + ((lambda/m) * theta)
